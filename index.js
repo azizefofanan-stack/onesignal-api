@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 const APP_ID = process.env.ONESIGNAL_APP_ID;
-const API_KEY = process.env.ONESIGNAL_REST_API_KEY;
+const API_KEY = process.env.ONESIGNAL_API_KEY;
 const API_SECRET = process.env.API_SECRET;
 
 // Petit middleware sécurité (clé côté client)
